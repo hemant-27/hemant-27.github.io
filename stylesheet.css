@@ -172,14 +172,22 @@ span.highlight {
   background-color: #ffffd0;
 }
 
+.section-nav {
+  border: 2px solid #9fb8d6;
+  background: #f7fbff;
+  padding: 10px 8px;
+  text-align: center;
+}
+
 .navbox {
   display: inline-block;
   margin: 6px 10px;
   padding: 6px 13px;
-  border: 1.5px solid #9fb8d6;
+  border: 2px solid #6f99c8;
   background: #eef4fb;
   color: #1772d0;
   font-weight: 700;
+  border-radius: 4px;
 }
 
 .navbox:hover,
