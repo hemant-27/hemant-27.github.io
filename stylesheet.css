@@ -173,8 +173,8 @@ span.highlight {
 }
 
 .section-nav {
-  border: 2px solid #9fb8d6;
-  background: #f7fbff;
+  border: none;
+  background: transparent;
   padding: 10px 8px;
   text-align: center;
 }
