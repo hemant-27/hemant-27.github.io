@@ -81,24 +81,24 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 14.5px;
 }
 
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 14.5px;
 }
 
 h2 {
   margin: 0;
   font-weight: normal;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 23px;
 }
 
 .papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 14.5px;
   font-weight: 700;
 }
 
@@ -106,22 +106,60 @@ h2 {
   padding-top: 20px;
   margin: 0;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
+  font-size: 34px;
+}
+
+.bio,
+.bio a {
+  font-size: 15.5px;
+  line-height: 1.45;
 }
 
 .one {
-  width: 160px;
-  height: 160px;
+  width: 170px;
+  height: 170px;
   position: relative;
 }
 
 .two {
-  width: 160px;
-  height: 160px;
+  width: 170px;
+  height: 170px;
   position: absolute;
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
   -webkit-transition: opacity .2s ease-in-out;
+}
+
+.one img,
+.one video {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 700px) {
+  body,
+  td,
+  th,
+  tr,
+  p,
+  a,
+  strong {
+    font-size: 14px;
+  }
+
+  .papertitle {
+    font-size: 14px;
+  }
+
+  .name {
+    font-size: 32px;
+  }
+
+  .one,
+  .two {
+    width: 140px;
+    height: 140px;
+  }
 }
 
 .fade {
@@ -132,6 +170,22 @@ h2 {
 
 span.highlight {
   background-color: #ffffd0;
+}
+
+.navbox {
+  display: inline-block;
+  margin: 6px 10px;
+  padding: 6px 13px;
+  border: 1.5px solid #9fb8d6;
+  background: #eef4fb;
+  color: #1772d0;
+  font-weight: 700;
+}
+
+.navbox:hover,
+.navbox:focus {
+  background: #dcecff;
+  border-color: #1772d0;
 }
 
 .colored-box {
